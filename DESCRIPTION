@@ -1,0 +1,14 @@
+Package: SparseToDense
+Title: Convert Between Dense and Sparse Matrices
+Version: 0.0.0.9000
+Authors@R: 
+    person("Federica", "DiGabriele", , "federica.digabriel@edu.unito.it", role = c("aut", "cre"))
+Description: Provides functions to convert dense matrix CSV files into sparse 
+    matrix representations and vice versa, including host wrapper routines.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    Matrix,
+    utils
